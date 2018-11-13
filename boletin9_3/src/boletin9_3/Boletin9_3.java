@@ -6,6 +6,7 @@ public class Boletin9_3 {
         AreaRectangulo obxArea = new AreaRectangulo();
 
         obxArea.calcularArea();
+        obxArea.mostrarArea();
     }
 
 }

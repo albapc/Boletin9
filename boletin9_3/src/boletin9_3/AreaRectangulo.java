@@ -13,7 +13,10 @@ public class AreaRectangulo {
         do {
             altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce a altura:"));
         } while (altura <= 0);
+    }
 
+    public void mostrarArea() {
         System.out.println("A área do rectángulo é: " + base * altura);
     }
+
 }
